@@ -66,7 +66,7 @@ def calculate_dimensions_for_aspect_ratio(aspect_ratio, input_width, input_heigh
     return output_width, output_height
 
 # Example usage
-videos = [('video link')]
+videos = ['https://www.youtube.com/watch?v=2NqO7ugDy6w']
 download_videos(videos)
 
 # Split all .webm files in the "downloads" folder
